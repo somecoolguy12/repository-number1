@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url("Airbrush-image-extender.jpeg");
+}
+header img{
+    height: 100px;
+    width: 100px;
+}
+nav a{
+    text-decoration: none;
+    color: lemonchiffon;
+    font-size: large;
+    padding: 5px 15px;
+    font-family:'Comic Sans MS';
+    &:hover{
+        color:darksalmon;
+        transition: 1s;
+        font-size:x-large;
+    }
+}
+header{
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    opacity: 1;
+    width: 100%;
+}
+nav{
+    padding: 10px;
+}
+section.home{
+    height: 500px;
+}
+.containerhome{
+    width: 55%;
+    margin-left: 45px;
+    margin-top: 149px;
+    background-color: goldenrod;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.judulhome{
+    font-size: xx-large;
+    font-family: "Gloria Hallelujah";
+    opacity: 1;
+}
+p{
+    font-size: larger;
+    font-family: "Comic Sans MS";
+    opacity: 1;
+}
+.containerabout img{
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    border-radius: 20px;
+}
+.containerabout{
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 700px;
+    margin-left: 45px;
+    margin-right: auto;
+    background: linear-gradient(to right, darksalmon, coral, chocolate);
+    box-shadow: 0px 0px 5px;
+}
+h3{
+    font-family: "Gloria Hallelujah";
+    font-size: x-large;
+}
+section.about{
+    height: 500px;
+}
+.cardprofile{
+    background-color: rgb(213, 209, 209);
+    padding: 40px;
+    width: 300px;
+    margin-left: 200px;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+    margin-top: 149px;
+    margin-bottom: 150px;
+    box-shadow: 0px 0px 5px;
+}
+.cardprofile img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 20px;
+}
+.cardprofile a{
+    color: black;
+    text-decoration: none;
+    font-size:x-large;
+}
