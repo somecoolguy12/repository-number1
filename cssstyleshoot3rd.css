@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    background-color: moccasin;
+}
+
+header{ 
+    text-align:center;
+    background-color:rgb(203, 151, 48);
+    box-shadow:0px 0px 5px;
+    position:fixed;
+    top: -25PX;
+    width:100%;
+    height: 180px;
+}
+
+.banner{
+    padding:10px;
+}
+
+nav{
+    padding:10px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-size:large;
+    padding:8px 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius:20px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:rgb(195, 143, 66);
+    background-color:rgb(65,48,48);
+    box-shadow:5px 5px 5px -2px rgb(149,113,113);
+}
+
+section.home{
+    height:800px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding-top: 10px;
+    margin-top: 30px;
+    background-attachment:fixed;
+    background-image:url("Gemini_Generated_Image_lzbiy0lzbiy0lzbi.png");
+}
+
+.containerhome{
+    width:55%;
+    margin-left:45px;
+    margin-top:149px;
+    background-color:#cca33c;
+    border-radius:20px;
+    box-shadow:0px 0px 5px;
+    padding:40px;
+    box-sizing:border-box;
+}
+
+.judulhome{
+    font-size:xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size:larger;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.containerabout{
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    max-width:700px;
+    margin:100px auto;
+    background:linear-gradient(to right,darksalmon,coral,chocolate);
+    box-shadow:0px 0px 5px;
+}
+
+.containerabout img{
+    width:30%;
+    border-radius:20px;
+}
+
+.cardprofile{
+    background-color:rgb(213,209,209);
+    padding:40px;
+    width:300px;
+    margin:149px auto 150px auto;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0px 0px 5px;
+}
+
+.cardprofile img{
+    max-width:200px;
+    border-radius:20px;
+}
